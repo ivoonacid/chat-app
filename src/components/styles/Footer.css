@@ -1,0 +1,30 @@
+.Footer {
+  position: fixed;
+  top: 90vh;
+  height: 10vh;
+  width: 100vw;
+  background-color: #123;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.send-btn {
+  background: transparent;
+  border: none;
+  font-size: 3rem;
+  color: #abc;
+  cursor: pointer;
+}
+
+input {
+  width: 350px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  text-align: right;
+  padding-right: 5px;
+  font-size: larger;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

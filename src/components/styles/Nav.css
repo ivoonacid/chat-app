@@ -1,0 +1,26 @@
+.Nav {
+  background-color: #123;
+  color: #abc;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.Nav span {
+  color: tomato;
+}
+
+.login-button {
+  background-color: #abc;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.login-button:hover {
+  background-color: #bcd;
+}
